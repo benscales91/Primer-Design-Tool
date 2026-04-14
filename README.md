@@ -31,17 +31,19 @@ Example genes.txt:
 Actb
 Gapdh
 Tp53
-File paths:
+
+## File locations:
 
 /data
- ├── validated_primers.csv        # Master dataset (Appends automatically)
- ├── ids_mouse.txt                # Log of discovered IDs
- ├── done_mouse.txt               # Log of successfully searched genes
- └── /images
-      ├── /amp_plots              # Amplification curves
-      ├── /dissociation_curves    # Melting curves
-      ├── /gels_sample            # Extracted target bands
-      └── /gels_ladder            # Reference ladders
+  validated_primers.csv        # Master dataset (Appends automatically)
+  ids_mouse.txt                # Log of discovered IDs
+  done_mouse.txt               # Log of successfully searched genes
+
+   /images
+    /amp_plots              # Amplification curves
+    /dissociation_curves    # Melting curves
+    /gels_sample            # Extracted target bands
+    /gels_ladder            # Reference ladders
 
 ## Troubleshooting and notes
 
